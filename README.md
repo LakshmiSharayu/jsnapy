@@ -86,7 +86,7 @@ test_command_version:
       tests:
         - no-diff: oper-status       # element in which test is performed
           err: "Test Failed!! oper-status  got changed, before it was <{{pre['oper-status']}}>, now it is <{{post['oper-status']}}>"
-          info: "Test Passed!! oper-status is same, before it is <{{pre['oper-status']}}> now it is <{{post['oper-status']}}> 
+          info: "Test Passed!! oper-status is same, before it is <{{pre['oper-status']}}> now it is <{{post['oper-status']}}>" 
 ```
 
 To run this test execute following command:
